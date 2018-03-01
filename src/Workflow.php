@@ -2,12 +2,6 @@
 
 namespace EvenFlow;
 
-interface Workflow
-{
-    public input() : void;
-    public function output() : void;
-}
-
 class Workflow
 {
     protected $workflow;
