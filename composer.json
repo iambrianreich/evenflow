@@ -15,7 +15,8 @@
     "authors": [
         {
             "name": "Brian Reich",
-            "email": "breich@reich-consulting.net"
+            "email": "breich@reich-consulting.net",
+            "homepage" : "https://www.reich-consulting.net/"
         }
-    ]
+    ],
 }
