@@ -3,9 +3,15 @@
     "description": "A workflow library for PHP 7",
     "type": "library",
     "require": {
+        "php" : ">=7.1.0",
         "phpunit/phpunit": "^7.0"
     },
-    "license": "Proprietary",
+    "autoload" : {
+        "psr-4" : {
+            "Evenflow\\" : "src"
+        }
+    },
+    "license": "MIT",
     "authors": [
         {
             "name": "Brian Reich",
