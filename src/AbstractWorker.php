@@ -20,7 +20,7 @@ abstract class AbstractWorker implements IWorker
      */
     public function setLogger(\Monolog\Logger $logger) : void
     {
-        $this->logger = $logger->withName('catalyst-image-processor');
+        $this->logger = $logger->withName($this->getTitle());
     }
     
     /**
@@ -32,7 +32,7 @@ abstract class AbstractWorker implements IWorker
     {
         // If there is no instance, use default instance.
         if ($this->logger == null) {
-            $this->logger = new \Monolog\Logger(self::LOGGER_NAME);
+            $this->logger = new \Monolog\Logger($this->getTitle());
         }
                 
         return $this->logger;
