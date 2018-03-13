@@ -2,7 +2,10 @@
 
 namespace Evenflow\Workers;
 
-use Evenflow\Workers\IWorker;
+use Evenflow\Workers\Iworker;
+
+use Evenflow\Workers\Input\IWorkloadInput;
+use Evenflow\Workers\Output\IWorkloadOutput;
 
 abstract class AbstractWorker implements IWorker
 {
