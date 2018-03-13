@@ -8,7 +8,7 @@
  * @license    Proprietary
  */
 
-namespace EvenFlow;
+namespace Evenflow;
 
 use \Monolog\Logger;
 use Evenflow\Workers\IWorker;
