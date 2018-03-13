@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="bootstrap.php"
+    stopOnError="false"
+    stopOnFailure="false"
+    stopOnIncomplete="false"
+    stopOnSkipped="false"
+    stopOnRisky="false">
+    <testsuites>
+        <testsuite name="default">
+        <directory>Tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+	   <log type="coverage-html" target="../build/phpunit/coverage" />
+    </logging>
+    <filter>
+	    <whitelist processUncoveredFilesFromWhitelist="true">
+	        <directory suffix=".php">../src/</directory>
+	    </whitelist>
+    </filter>
+</phpunit>
+<!-- bootstrap="bootstrap.php" -->

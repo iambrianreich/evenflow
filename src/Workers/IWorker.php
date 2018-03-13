@@ -1,5 +1,5 @@
 <?php
-namespace EvenFlow\Workers;
+namespace Evenflow\Workers;
 
 use Evenflow\Workers\Input\IWorkloadInput;
 use Evenflow\Workers\Output\IWorkloadOutput;
