@@ -1,4 +1,5 @@
 <?php
+
 namespace Evenflow\Workers;
 
 use Evenflow\Workers\Input\IWorkloadInput;
