@@ -2,7 +2,7 @@
 
 namespace Evenflow\Workers;
 
-use Evenflow\Workers\Iworker;
+use Evenflow\Workers\IWorker;
 
 use Evenflow\Workers\Input\IWorkloadInput;
 use Evenflow\Workers\Output\IWorkloadOutput;
